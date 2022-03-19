@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+ h1 {
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+} 
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    margin: 20px 200px;
+}
+
+div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div > p {
+    text-align: left;
+    width: 900px;
+    margin: 20px auto;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+p > img {
+    float: left;
+}
+
+ul{
+    text-align: left;
+    margin-left: 550px;
+}
+
+li {
+    display: block;
+}
+
+h6 {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+}
